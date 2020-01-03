@@ -1,0 +1,32 @@
+#start-con span:last-of-type {
+  animation: blink-caret 0.5s step-end infinite alternate;
+  -webkit-animation: blink-caret 0.5s step-end infinite alternate;
+  border-right: 1px solid #fafafa;
+	line-height: normal;
+	padding-right: 3px;
+	display: inline-block;
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@-moz-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@-ms-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
